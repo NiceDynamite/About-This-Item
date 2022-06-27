@@ -1,0 +1,109 @@
+
+
+.App {
+  background-color: rgba(128, 128, 128, 0.07);
+}
+
+.about {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+/* shipping return buttton */
+
+.shipping-returnsBtn {
+  text-align: center;
+  font-weight:100;
+  position: relative;
+  padding: 8px 12px;
+  display: block;
+  font-size: 16px;
+}
+
+.shipping-returnsBtn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.shipping-returnsBtn:active {
+  border-bottom: 3px solid rgb(204, 0, 0);
+  font-weight: bold;
+}
+
+.shipping-returnsBtn:focus {
+  color: red;
+}
+
+/* details Button */
+
+.details-Btn {
+  text-align: center;
+  font-weight:100;
+  position: relative;
+  padding: 8px 12px;
+  display: block;
+  font-size: 16px;
+}
+
+.details-Btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.details-Btn:active {
+  border-bottom: 3px solid rgb(204, 0, 0);
+  font-weight: bold;
+}
+
+/* label info button */
+
+.label-infoBtn {
+  text-align: center;
+  font-weight:100;
+  position: relative;
+  padding: 8px 12px;
+  display: block;
+  font-size: 16px;
+}
+
+.label-infoBtn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.label-infoBtn:focus-within {
+  border-bottom: 3px solid rgb(204, 0, 0);
+  font-weight: bold;
+}
+
+/* QA button */
+
+.QA-btn {
+  text-align: center;
+  font-weight:100;
+  position: relative;
+  padding: 8px 12px;
+  display: block;
+  font-size: 16px;
+}
+
+.QA-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* when tab is selected, it changes className to active */
+
+.active {
+  border-bottom: 3px solid rgb(204, 0, 0);
+  font-weight: bold;
+}
+
+#header {
+  border-bottom: 1px solid #aaa;
+  height:min-content;
+  display: flex;
+  padding: 0 2rem 0 2rem;
+  justify-content: space-evenly;
+  text-align: center;
+}

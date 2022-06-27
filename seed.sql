@@ -1,0 +1,1 @@
+INSERT INTO shipping (dimensions, weight) VALUES ('3 inches length x 6 inches width x 8.25 inches height', '10.5 ounces');
