@@ -28,7 +28,7 @@ class Header extends React.Component {
             <div id="header" >
                 <h4 onClick={handleClick} className="details-Btn">Details</h4>
                 <h4 onClick={handleClick} className="label-infoBtn">Label info</h4>
-                <h4 onClick={handleClick} className="shipping-returnsBtn">Shipping & Returns</h4>
+                <h4 onClick={handleClick} className="shipping-returnsBtn active">Shipping & Returns</h4>
                 <h4 onClick={handleClick} className="QA-btn">Q&A (2)</h4>
             </div>
         )
