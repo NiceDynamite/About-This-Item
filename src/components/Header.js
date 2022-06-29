@@ -1,8 +1,11 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 class Header extends React.Component {
     render() {
 
+        //handleClick will remove 'active' as the className and add 'active' as a className to whatever is clicked on
+        //'active' will just change the CSS of the selected tab
         const handleClick = (e) => {
             const details = document.getElementsByClassName('details-Btn')
             const label = document.getElementsByClassName('label-infoBtn')
@@ -21,15 +24,14 @@ class Header extends React.Component {
                 questions[0].classList.remove('active')
             }
             e.target.classList.add('active')
-            
         }
 
         return (
             <div id="header" >
-                <h4 onClick={handleClick} className="details-Btn">Details</h4>
-                <h4 onClick={handleClick} className="label-infoBtn">Label info</h4>
-                <h4 onClick={handleClick} className="shipping-returnsBtn">Shipping & Returns</h4>
-                <h4 onClick={handleClick} className="QA-btn">Q&A (2)</h4>
+                <Link to="/Details" onClick={handleClick} className="details-Btn">Details</Link>
+                <Link to="/Label" onClick={handleClick} className="label-infoBtn">Label info</Link>
+                <Link to="/" onClick={handleClick} className="shipping-returnsBtn active">Shipping & Returns</Link>
+                <Link to="/Questions" onClick={handleClick} className="QA-btn">Q&A (2)</Link>
             </div>
         )
     }
