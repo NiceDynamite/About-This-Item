@@ -31,7 +31,7 @@ class Header extends React.Component {
                 <Link to="/Details" onClick={handleClick} className="details-Btn">Details</Link>
                 <Link to="/Label" onClick={handleClick} className="label-infoBtn">Label info</Link>
                 <Link to="/" onClick={handleClick} className="shipping-returnsBtn active">Shipping & Returns</Link>
-                <Link to="/Questions" onClick={handleClick} className="QA-btn">Q&A (2)</Link>
+                <Link to="/Questions" onClick={handleClick} className="QA-btn">Q&A</Link>
             </div>
         )
     }
