@@ -1,7 +1,7 @@
 const { Pool } = require('pg')
 
 const poolConfig = {
-    connectionString: process.env.DATABASE_URL,
+    connectionString: 'postgres://wayneodell@localhost:5432/shipandreturndb',
 }
 
 if (process.env.NODE_ENV === "production") {

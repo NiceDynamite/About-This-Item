@@ -3,11 +3,13 @@ import ReturnDetails from "./ReturnDetails";
 
 class ShippingAndReturn extends React.Component {
     render() {
+        console.log(this.props.data[0].dimensions)
         return(
+            
             <div>
                 <h4>Shipping details</h4>
-                <p>Estimated ship dimensions: {this.props.elem.dimensions}</p>
-                <p>Estimated ship weight: {this.props.elem.weight}</p>
+                <p>Estimated ship dimensions: {this.props.data[0].dimensions}</p>
+                <p>Estimated ship weight: 10 oz</p>
                 <ReturnDetails />
             </div>
             

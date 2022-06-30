@@ -16,7 +16,7 @@
 
 /* This div contains all 4 tabs at the top */
 
-#header {
+#title {
   border-bottom: 1px solid #aaa;
   height:min-content;
   display: flex;
@@ -345,4 +345,19 @@
 
 .nutrition {
   padding-left: 3%;
+}
+
+#nutrition-value {
+  list-style-type: none;
+  margin-left: 1%;
+}
+
+#nutrition-value li {
+  border-bottom: 1px solid #aaa;
+  padding: 4%;
+  padding-left: 0%;
+}
+
+.nutrition p{
+  border-bottom: 3px solid rgb(165, 165, 165);
 }
