@@ -4,7 +4,7 @@ const pool = require('./db/db.js')
 //Q&A table
 let questions = [];
 
-for (let x = 0; x < 2; x++) {
+for (let x = 0; x < 50; x++) {
     let question = faker.lorem.text();
     let obj = {
         question

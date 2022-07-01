@@ -3,7 +3,6 @@ import ReturnDetails from "./ReturnDetails";
 
 class ShippingAndReturn extends React.Component {
     render() {
-        console.log(this.props.data[0].dimensions)
         return(
             
             <div>

@@ -36,7 +36,7 @@ class App extends React.Component {
 
     return (
       <Router>
-        <div className="App">
+        <div className="Beginning">
           <header className="App-header">
             <h2 className="about">
               About this item
