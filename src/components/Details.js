@@ -15,7 +15,7 @@ class Details extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:8000/api/target_questions')
+        fetch('http://localhost:5002/api/target_questions')
         .then((response) => response.json())
         .then((data) => this.setState({data: data, loading: false}))
       }

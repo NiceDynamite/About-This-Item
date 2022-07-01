@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch('http://localhost:8000/api/shipping')
+    fetch('http://localhost:5002/api/shipping')
     .then((response) => response.json())
     .then((data) => this.setState({data: data, loading: false}))
   }

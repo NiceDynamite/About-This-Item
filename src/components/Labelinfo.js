@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Loading from "./Loading";
 
 class Labelinfo extends React.Component {
@@ -14,7 +13,7 @@ class Labelinfo extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:8000/api/label')
+        fetch('http://localhost:5002/api/label')
         .then((response) => response.json())
         .then((data) => this.setState({data: data, loading: false}))
       }
