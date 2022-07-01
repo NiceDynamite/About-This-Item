@@ -6,10 +6,10 @@ class Highlights extends React.Component {
             <div className="highlights">                
                 <h4>Highlights</h4>
                 <ul className="list">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                    <li>Egestas egestas fringilla phasellus faucibus.</li>
-                    <li>Dignissim diam quis enim lobortis scelerisque. Pellentesque dignissim enim sit amet venenatis urna cursus eget nunc.</li>
-                    <li>At auctor urna nunc id cursus.</li>
+                    <li>{this.props.data[3].question}.</li>
+                    <li>{this.props.data[4].question}.</li>
+                    <li>{this.props.data[6].question}.</li>
+                    <li>{this.props.data[8].question}.</li>
                 </ul>
             </div>
         )

@@ -4,15 +4,13 @@ import ShippingAndReturn from "./ShippingAndReturn";
 class Shipping extends React.Component {
     render() {
         return (
-            this.props.data.map((elem) => {
-                return (
-                    <div id="shipping-return">
-                        <ShippingAndReturn elem={elem} key={elem.id} />
-                    </div>
-                )
-            })
+            <div id="shipping-return">
+                <ShippingAndReturn data={this.props.data} key={this.props.data.id} />
+            </div>
+                
+            )
             
-        )
+        
     }
 }
 

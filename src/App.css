@@ -1,6 +1,6 @@
 
 
-.App {
+.Beginning {
   background-color: rgba(128, 128, 128, 0.07);
   position: absolute;
   height: 100%;
@@ -16,7 +16,7 @@
 
 /* This div contains all 4 tabs at the top */
 
-#header {
+#title {
   border-bottom: 1px solid #aaa;
   height:min-content;
   display: flex;
@@ -186,6 +186,7 @@
 #specifications {
   list-style-type: none;
   margin-left: 1%;
+  padding-left: 0pt;
 }
 
 #specifications li {
@@ -345,4 +346,20 @@
 
 .nutrition {
   padding-left: 3%;
+}
+
+#nutrition-value {
+  list-style-type: none;
+  margin-left: 1%;
+  padding-left: 0pt;
+}
+
+#nutrition-value li {
+  border-bottom: 1px solid #aaa;
+  padding: 4%;
+  padding-left: 0%;
+}
+
+.nutrition p{
+  border-bottom: 3px solid rgb(165, 165, 165);
 }

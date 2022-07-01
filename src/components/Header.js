@@ -27,7 +27,7 @@ class Header extends React.Component {
         }
 
         return (
-            <div id="header" >
+            <div id="title" >
                 <Link to="/Details" onClick={handleClick} className="details-Btn">Details</Link>
                 <Link to="/Label" onClick={handleClick} className="label-infoBtn">Label info</Link>
                 <Link to="/" onClick={handleClick} className="shipping-returnsBtn active">Shipping & Returns</Link>
